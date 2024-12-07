@@ -1,3 +1,5 @@
+import { AppDownloadSection } from "@/components/AppDownloadSection";
+import { FindDoctor } from "@/components/FindDoctor";
 import { HomePage } from "@/components/Home";
 import { NavBar } from "@/components/NavBar";
 import { Services } from "@/components/Services";
@@ -8,6 +10,8 @@ export default function Home() {
       <NavBar />
       <HomePage />
       <Services />
+      <AppDownloadSection />
+      <FindDoctor />
     </div>
   );
 }
