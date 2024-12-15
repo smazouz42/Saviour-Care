@@ -19,7 +19,7 @@ const Services = () => {
             {ServicesItems.map((service) => (
               <div className="flex flex-col gap-4 w-[350px] h-[350px] rounded-2xl items-center justify-center shadow-sm bg-white">
                 <Image src={service.img} alt="Vercel Logo" width={service.width} height={service.height} />
-                <h1 className="~text-xl/2xl bold font-semibold pt-6 ">{service.name}</h1>
+                <h1 className="~text-xl/2xl bold font-semibold pt-6 text-back ">{service.name}</h1>
                 <p className="text-md text-gray-400 max-w-[270px]">{service.description}</p>
               </div>
             ))}

@@ -11,21 +11,21 @@ const CustomerTestimonials = () => {
   const Customer = [
     {
       id: 1,
-      name: "Said Mazouz",
+      name: "issam al3asza",
       job: "Verified Customer",
       avatar: "/avatar.png",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes."
     },
     {
       id: 2,
-      name: "Said zob",
+      name: "Daiiis ",
       job: "Verified Customer",
       avatar: "/avatar.png",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes."
     },
     {
       id: 3,
-      name: "Said alm9awad",
+      name: "reda moulmado",
       job: "Verified Customer",
       avatar: "/avatar.png",
 
